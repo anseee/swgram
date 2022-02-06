@@ -1,0 +1,19 @@
+{
+  "name": "swgram",
+  "version": "1.0.0",
+  "description": "instagram clone with express + prisma react and react native",
+  "main": "index.js",
+  "repository": "https://anseee@github.com/anseee/swgram.git",
+  "author": "anseee <parksungwon1113@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+}
